@@ -1,0 +1,14 @@
+services:
+  chameleon-triangles:
+    build:
+      context: ..
+      dockerfile: ./.devcontainer/Dockerfile.devcontainer
+      target: devcontainer
+    volumes:
+      - ../.devcontainer:/root/chameleon-triangles/.devcontainer/:ro
+      - chameleon-triangles:/root/chameleon-triangles:rw
+      - chameleon-triangles-vscode:/vscode:rw
+    command: ['sleep', 'infinity']
+volumes:
+  chameleon-triangles:
+  chameleon-triangles-vscode:

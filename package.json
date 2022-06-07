@@ -1,0 +1,10 @@
+{
+  "name": "chameleon-triangles",
+  "version": "1.0.0",
+  "description": "a quick solution to an interesting recreational math problem",
+  "main": "index.js",
+  "repository": "https://github.com/ozzyfromspace/chameleon-triangles.git",
+  "author": "ozzyfromspace <float.circuit@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
